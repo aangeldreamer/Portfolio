@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto+Condensed:400,700|Roboto:300,400,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <header class="hidden-mobile">
+        <!--am sinnvollsten ist es vermutlich, wenn die desktop genauso wie die mobile-vers. mit scrollen funktioniert und man beim klicken der Themen nur an die passende Stelle, anstatt auf eine neue Seite gelangt wie vorher geplant(sonst müssten die Links der Liste je nach desktop/mobil untersch. Funktionen haben->
+            <ul><a href="#" class="logo">photography</a></ul>
+            <hr /><!--entweder wir lassen die Trennlinien weg oder wir müssen sie in der desktop-version vertecken-->
+        <ul>
+            <li><a href="./Portfolio.html" class="logo"><h2>PORTFOLIO</h2></a></li>               
+            <li><a href="./photography.html">photography</a></li>
+            <li><a href="#">illustration</a></li>
+            <li><a href="#">editorial</a></li>
+            <li><a href="#">typography</a></li>
+            <li><a href="#">interior</a></li>
+        </ul>
+    </header>
+
+    <div class="bild">
+        <img src="Portfolio Pic.jpeg" class="hidden-mobile" alt="Bild">
+    </div>
+
+    <header class="hidden-desktop">
+        <ul><li><a href="#" class="logo"><h2>PORTFOLIO</h2></a></li></ul>
+    </header>
+    
+    <div class="background">
+        <div class="transbox">
+        <ul class="hidden-desktop">               
+            <li><a href="./photography.html">photography</a></li>
+            <li><a href="#">illustration</a></li>
+            <li><a href="#">editorial</a></li>
+            <li><a href="#">typography</a></li>
+            <li><a href="#">interior</a></li>
+        </ul>
+        </div>
+    </div>
+
+
+
+    <footer> <!--hier muss verm. die Reiehfolge von desktop zu Handy geändert werden-->
+        <ul>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+        <sub-footer>
+            <div>
+            <img src="puppy.jpg" alt="Profilbild" class="profil"> <!--Profilbild-->
+        </div>
+        <div class="text"><h2>About me</h2>
+            Studentin Angelina Lifatov wurde in der Stadt
+            Belowodskoje in Kirgistan am 26. März 1999 geboren. Mit 3 Jahren ist sie nach
+            Deutschland gekommen. Ihre Kindheit und Jugend verbrachte Sie in Kaarst. In Ihrer Freizeit zeichnet Sie sehr
+            gerne.
+            Deswegen war Ihr schon früh klar, dass Sie etwas im
+            kreativen Bereich machen möchte. 2014 absolvierte Sie ihr Praktikum bei Peter Dück
+            Grafikdesign. Durch das Praktikum gelang es Ihr einen Einblick zu machen und für sich zu realisieren, was
+            Sie wirklich machen möchte. Im Jahre 2015 bekam Sie ihren Realschulabschluss und daraufhin im Juni 2018 ihr
+            Abitur. März 2018 bestand sie die Eignungsprüfung. Nachdem wurde sie im August an der Hochschule Düsseldorf
+            immatrikuliert.
+        </div>
+        <div class="message">
+            <form action="thank-you.html" method="GET"> <!--thank you css stylen(font)-->
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="email" placeholder="Your e-mail">
+                <button type="submit">senden</button>
+            </form>
+        </div>
+        </sub-footer>
+</body>
+</html>
