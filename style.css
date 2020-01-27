@@ -2,14 +2,6 @@
     --text-font: 'Roboto', sans-serif;
 }
 
-form > input {
-    display: block;
-    margin: 1rem 0;
-
-    padding: .5rem 1rem;
-    border: 1px solid red;
-}
-
 div{
     display: flex;
     justify-content: center;
