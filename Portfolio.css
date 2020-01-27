@@ -246,14 +246,14 @@ header>ul{
 
 div>div>ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
     list-style-type: none;
     margin: 0 auto;
     padding: 0rem;
     width: 100%;
-    gap: 4.3rem;
+                 gap: 4.3rem;
 }
 
 div.background{
