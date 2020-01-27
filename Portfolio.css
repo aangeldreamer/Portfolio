@@ -161,7 +161,6 @@ footer>ul{
     padding: 2rem;
     font-size: 23px;
     background-color: #C4C4C4;
-    /*flex-basis: 20000rem;*/
 }
 
 footer > ul > li{
@@ -236,7 +235,7 @@ header{
 }
 
 header>ul>li>a>h2{
-    padding: 0;
+    padding: 0rem 0rem 0rem 0rem;
     margin: 0;
 }
 header>ul{
@@ -246,14 +245,14 @@ header>ul{
 
 div>div>ul{
     display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     list-style-type: none;
     margin: 0 auto;
     padding: 0rem;
     width: 100%;
-                 gap: 4.3rem;
+    gap: 4.3rem;
 }
 
 div.background{
@@ -312,10 +311,7 @@ sub-footer{
     align-content: center;
     font-size: 15px;
     font-family: var(--text-font);
-    padding: 1rem 2rem 0rem 2rem
-        /* hyphens: auto; 
-        text-align: justify  
-        - Blocksatz*/
+    padding: 1rem 2rem 0rem 2rem;
 }
 
 footer>sub-footer>div>h2{
