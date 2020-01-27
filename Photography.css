@@ -1,35 +1,28 @@
 @charset "UTF-8";
 
 :root {
-    --text-font: 'Roboto', sans-serif;
-    
-    --color-main: #12121B;
-    --color-primary: #FCEE60;
-    --color-primary-dark: rgb(238, 225, 79);
-    --color-secondary: #F2F2F2;
-    --color-secondary-dark: rgb(211, 211, 211);
-    
+            --text-font: 'Roboto', sans-serif;
 }
 /*mobil*/
 @media screen and (max-width: 480px) {
-    .hidden-mobile {
-        display: none!important;
-        visibility: hidden!important;
-        opacity: 0!important;
-    }
+            .hidden-mobile {
+                display: none!important;
+                visibility: hidden!important;
+                opacity: 0!important;
+            }
 }
 /*desktop*/
 @media screen and (min-width: 481px) {
-    .hidden-desktop {
-        display: none!important;
-        visibility: hidden!important;
-        opacity: 0!important;
-    }
+            .hidden-desktop {
+                display: none!important;
+                visibility: hidden!important;
+                opacity: 0!important;
+            }
 }
 
 body, html {
-    margin: 0;
-    padding: 0;
+            margin: 0;
+            padding: 0;
 }
 
 .message {
@@ -40,72 +33,72 @@ body, html {
 }
 
 .message input {
-        background-color: #EEF0F2;
-        border: none;
-        color: rgb(68, 67, 67);
-        padding: 13px;
-        width: 290px;
-        text-align: start;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 40px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
+    background-color: #EEF0F2;
+    border: none;
+    color: rgb(68, 67, 67);
+    padding: 13px;
+    width: 290px;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 
 }
 
 .message button {
-        background-color: #FFE606;
-        border: none;
-        color: rgb(49, 49, 49);
-        padding: 12px;
-        width: 315px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 40px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
+    background-color: #FFE606;
+    border: none;
+    color: rgb(49, 49, 49);
+    padding: 12px;
+    width: 315px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
-    /* unvisited link */
-    a:link {
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        text-decoration: none;
-        font-size: 23px;
+/* unvisited link */
+a:link {
+            color: white;
+            font-family: var(--text-font);
+            text-decoration: none;
+            font-size: 23px;
 }
 
-    /* visited link */
-    a:visited {
-        color: rgb(167, 167, 167);
-        font-family: 'Roboto', sans-serif;
-        text-decoration: none;
-        font-size: 23px;
+/* visited link */
+a:visited {
+            color: rgb(167, 167, 167);
+    font-family: var(--text-font);
+    text-decoration: none;
+    font-size: 23px;
 }
 
-    /* mouse over link */
-    a:hover {
-        color: #FFE606;
-        font-family: 'Roboto', sans-serif;
-        text-decoration: none;
-        font-size: 23px;
+/* mouse over link */
+a:hover {
+            color: #FFE606;
+    font-family: var(--text-font);
+    text-decoration: none;
+    font-size: 23px;
 }
 
-    /* selected link */
-    a:active {
-        color: #FFE606;
-        font-family: 'Roboto', sans-serif;
-        text-decoration: none;
-        font-size: 23px;
+/* selected link */
+a:active {
+            color: #FFE606;
+    font-family: var(--text-font);
+    text-decoration: none;
+    font-size: 23px;
 }
 
 footer>sub-footer>div>h2{
@@ -114,8 +107,8 @@ footer>sub-footer>div>h2{
 
 /*desktop*/
 @media only screen and (min-width: 481px) {
-    html {
-        font-size: 62.5%;
+html {
+    font-size: 62.5%;
 }
 
 .message{
@@ -124,18 +117,18 @@ footer>sub-footer>div>h2{
 
 .logo{
     display: flex;
-    justify-content: flex-start;
+            justify-content: flex-start;
 }
 
 header{
     background-color: #3F3250;
     display: flex;
-    justify-content: space-around;
+            justify-content: space-around;
     align-items: center;
 }
 
 header>ul{
-    list-style-type: none;
+            list-style-type: none;
     margin: 0 auto;
     width: 100%;
     justify-content: space-around;
@@ -145,22 +138,22 @@ header>ul{
 
 
 .bild {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-    padding: 1rem 0rem 1rem 0rem;
-    width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 1rem;
+            padding: 1rem 0rem 1rem 0rem;
+            width: 100%;
 }
 
 img {
-    width: 100%;
+            width: 100%;
 }
 
 footer>ul{
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: flex-end;
+            flex-direction: row;
+    margin: 0;
+            justify-content: flex-end;
     list-style-type: none;
     font-family: var(--text-font);
     height: 100%;
@@ -171,35 +164,35 @@ footer>ul{
 }
 
 footer > ul > li{
-    margin-left: 4rem;
+            margin-left: 4rem;
 }
 
 sub-footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+            flex-direction: row;
+            justify-content: space-evenly;
     align-items: center;
     padding: 0;
     margin: 0;
     color: #12121B;
-    height: 100%;
-    width: 100%;
+            height: 100%;
+            width: 100%;
     background-color: #DAD8D8;
 }
 
 .profil {
-    justify-content: flex-start;
+            justify-content: flex-start;
     align-items: center;
     margin-left: 4rem;
     padding: 0rem;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    border: 5px solid #FFE606;
+            border-radius: 50%;
+            border: 5px solid #FFE606;
 }
 
  .text {
-    text-align: center;
+            text-align: center;
     align-content: center;
     font-size: 15px;
     font-family: var(--text-font);
@@ -212,21 +205,9 @@ sub-footer{
 
 
 
-/*Passt bilder an gegebene größe an
-.img-autoresize {
-    left: -1000%;
-    right: -1000%;
-    top: -1000%;
-    bottom: -1000%;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-*/
 
 
+/* mobil */
 @media screen and (max-width: 480px) {
 
 .logo{
@@ -237,21 +218,20 @@ sub-footer{
 header{
     background-color: #3F3250;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 header>ul{
+    display: flex;
     list-style-type: none;
     margin: 0 auto;
     width: 100%;
     justify-content: center;
-    display: flex;
     align-items: center;
-    display: flex;
     flex-direction: column;
     padding: 0;
 }
@@ -262,33 +242,31 @@ header>ul>li>a>h2{
 }
 
 .bild{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 0.5rem 0rem 0.5rem 0rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 img{
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 footer>ul{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
     list-style-type: none;
     font-family: var(--text-font);
     height: 100%;
     font-size: 23px;
     background-color: #C4C4C4;
-    padding:0rem;
+    padding: 0rem;
 }
 
 footer > ul > li{
-    margin: 0 auto;
-    padding: 0.5rem 0rem 0.5rem 0rem;
+            margin: 0 auto;
+            padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 sub-footer{
@@ -298,7 +276,7 @@ sub-footer{
     align-items: center;
     padding: 0;
     margin: 0;
-    color: #12121B;
+    color: #12121B;sssss
     height: 100%;
     width: 100%;
     background-color: #DAD8D8;

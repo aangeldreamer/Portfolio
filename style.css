@@ -16,7 +16,7 @@ div{
     align-items: center;
     flex-direction: column;
     font-family: var(--text-font);
-    height: 95vh;
+            height: 95vh;
     text-align: center;
 }
 
